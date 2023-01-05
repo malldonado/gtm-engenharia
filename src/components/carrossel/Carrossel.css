@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.banner {
+    height: 600px;
+    display: flex;
+}
+
+.banner .bannerComplements {
+    width: 50%;
+}
+
+.bannerText {
+    justify-content: center;
+    margin: 0 10px 0 200px;
+    align-items: center;
+    padding: 0 170px 0 0;
+    display: flex;
+}
+
+.bannerText h1 {
+    color: #ecd8bd;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: .7px;
+    font-family: "Roboto", sans-serif;
+}
+
+.bannerText p {
+    color: #ecd8bd;
+    font-size: 30px;
+    display: block;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+.bannerText span {
+    color: #ff7433;
+    position: relative;
+    display: contents;
+}
+
+.banner img {
+    position: relative;
+    width: 100%;
+}
+
+.bannerImg {
+    position: relative;
+}
+
+.bannerImg:before {
+    content: '';
+    display: block;
+    z-index: 100000;
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 0;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid #1b1925;
+}
+
+.ourServices {
+    width: 150px;
+    background: #fece51;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #1b1925;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.viewProjects {
+    width: 150px;
+    background: transparent;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
