@@ -1,6 +1,7 @@
 import React from 'react';
 import './Carrossel.css';
 import banner from './images/banner.jpg';
+import modelo from './images/modelo.jpg';
 
 function Carrossel() {
   return (
@@ -16,11 +17,12 @@ function Carrossel() {
             </div>
         </div>
         <div className='bannerImg bannerComplements'>
-            <card></card>
-            <img
-            className=""
-            src={banner}
-            alt="svelte logo" />
+            <div className='bannerCard'>
+                <img className="" src={modelo} alt="" />
+                <h4>Matheus Maldonado</h4>
+                <p>Eu gostei muito feito com muito carrinho!</p>
+            </div>
+            <img className="bannerImage" src={banner} alt="" />
         </div>
     </div>
   )
