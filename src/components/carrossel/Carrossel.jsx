@@ -5,7 +5,7 @@ import modelo from './images/modelo.jpg';
 
 function Carrossel() {
   return (
-    <div className='banner'>
+    <div className='banner container'>
         <div className='bannerText bannerComplements'>
             <div>
                 <h1>Architecture width people in mind<span>.</span></h1>
@@ -16,6 +16,7 @@ function Carrossel() {
                 </div>
             </div>
         </div>
+        <div className='bannerSpacing'></div>
         <div className='bannerImg bannerComplements'>
             <div className='bannerCard'>
                 <img className="" src={modelo} alt="" />

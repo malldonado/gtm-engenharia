@@ -8,10 +8,7 @@ function Navbar() {
       
       <div className="navbar">
         <div>
-          <img
-          className=""
-          src={logo}
-          alt="svelte logo" />
+          <img className="" src={logo} alt="svelte logo" />
           </div>
           <span>Design</span>
           <span>About us</span>

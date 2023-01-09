@@ -42,11 +42,11 @@ body {
 .navbar button {
   height: 50px;
   width: 150px;
-  background: #ff7433;
+  background: #fece51;
   right: 200px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #fff;
+  font-weight: 700;
+  color: #1b1925;
   letter-spacing: 0.5px;
   position: absolute;
 }

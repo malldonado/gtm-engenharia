@@ -1,17 +1,20 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+.banner {
+    height: 700px;
+    display: flex;
+    margin: auto;
 }
 
-.banner {
-    height: 600px;
-    display: flex;
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.bannerSpacing {
+    width: 4%;
 }
 
 .banner .bannerComplements {
-    width: 50%;
+    width: 48%;
 }
 
 .bannerCard {
@@ -21,8 +24,8 @@
     width: 300px;
     position: absolute;
     z-index: 1000000;
-    left: -120px;
-    bottom: 50px;
+    left: -110px;
+    bottom: 160px;
 }
 
 .bannerCard h4 {
@@ -39,6 +42,7 @@
     line-height: 1.4;
     color: #a7a7a7;
     font-weight: 500;
+    padding: 0 100px 0 0;
 }
 
 .bannerCard:before {
@@ -81,9 +85,7 @@
 
 .bannerText {
     justify-content: center;
-    margin: 0 10px 0 200px;
     align-items: center;
-    padding: 0 170px 0 0;
     display: flex;
 }
 
@@ -113,6 +115,7 @@
 .banner img {
     position: relative;
     width: 100%;
+    object-fit: cover;
 }
 
 .bannerImg {
