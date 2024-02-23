@@ -1,0 +1,28 @@
+.react-slideshow-container .nav:last-of-type {
+  right: 50px !important;
+}
+
+.react-slideshow-container .nav:first-of-type {
+  left: 50px !important;
+}
+
+.react-slideshow-container+ul.indicators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute !important;
+    width: 100%;
+    left: 5vw !important;
+}
+
+.react-slideshow-container .default-nav,
+.react-slideshow-container .default-nav:focus {
+    background: transparent !important;
+    fill: #fff !important;
+}
+
+.react-slideshow-container .default-nav:hover {
+    background: transparent !important;
+    fill: #af9155 !important;
+}

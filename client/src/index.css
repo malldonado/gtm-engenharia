@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Jost", sans-serif;
+  }
+
+  .writing-vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
+  .span-navbar:hover:after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #af9155;
+    bottom: -4px;
+  }
+  
+}
