@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className="w-full mt-[200px] h-full">
+    <div className="bg-[#000] w-full mt-[200px] h-full">
       <div className="flex w-full justify-center items-center h-full">
         <div className="items-center w-[30%] flex justify-center">
           <ul className="text-white">
@@ -18,18 +18,18 @@ function Footer() {
             <li>5 Briarwood LaneVienna, VA 22180 RER</li>
             <li className="flex justify-start gap-3 mt-4">
               <span className="text-[26px] cursor-pointer" href="">
-                <FaFacebookSquare className="fill-white hover:fill-[#af9155]" />
+                <FaFacebookSquare />
               </span>
               <span className="text-[26px] cursor-pointer" href="">
-                <RiInstagramFill className="fill-white hover:fill-[#af9155]" />
+                <RiInstagramFill />
               </span>
               <span className="text-[26px] cursor-pointer" href="">
-                <FaSquareXTwitter className="fill-white hover:fill-[#af9155]" />
+                <FaSquareXTwitter />
               </span>
             </li>
           </ul>
         </div>
-        <div className="items-center w-[30%] flex justify-center mb-[30px]">
+        <div className="items-center w-[30%] flex justify-center mt-[-30px]">
           <ul className="text-white">
             <li className="text-[22px] font-medium mb-12 mt-8">Company Info</li>
             <li className="mb-3 cursor-pointer">About</li>

@@ -3,20 +3,22 @@ import Navbar from './index/Navbar'
 import Banner from './index/Banner'
 import Categories from './index/Categories'
 import Footer from './index/Footer'
-import Products from './index/Products'
-import Featured from './index/Featured'
+import CardOne from "./index/CardOne";
+import OurProjects from "./index/OurProjects";
+import Message from "./index/Message";
 import './style/style.css';
 
 function Index() {
   return (
-    <div className="bg-black">
+    <>
       <Navbar/>
       <Banner/>
       <Categories/>
-      {/* <Products/>
-      <Featured/>
-      <Footer/> */}
-    </div>
+      <OurProjects/>
+      <CardOne/>
+      <Message/>
+      <Footer/>
+    </>
   )
 }
 

@@ -1,19 +1,22 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
-import Image from '../../images/banner.jpg'
+import Image from '../../images/banner.jpg';
+import Card from '../../images/1.png';
+import Card1 from '../../images/2.png';
+import Card2 from '../../images/3.png';
 
 function Categories() {
   return (
-    <div className="max-w-[1200px] mx-auto mt-[40px] flex justify-center items-center h-auto p-0 mb-0">
-     <div className="w-[30%] h-[300px] bg-[#1b1b1b]">
-      <span className="text-white text-[30px] flex justify-end mr-4 mt-4">Architeture Plan</span>
+    <div className="max-w-[1200px] bg-black mx-auto mt-[150px] mb-[70px] flex justify-center items-center h-auto">
+     <div className="w-[30%] ml-[50px]">
+      <img src={Card} className="w-[300px] h-[350px] cursor-pointer" alt="" />
      </div>
-     <div className="w-[30%] h-[300px] bg-white">
-      <span className="text-white">Architeture Plan</span>
+     <div className="w-[30%]">
+      <img src={Card1} className="w-[300px] h-[350px] cursor-pointer" alt="" />
      </div>
-     <div className="w-[30%] h-[300px] bg-red">
-      <span className="text-white">Architeture Plan</span>
+     <div className="w-[30%]">
+      <img src={Card2} className="w-[300px] h-[350px] cursor-pointer" alt="" />
      </div>
     </div>
   );
