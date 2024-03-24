@@ -8,7 +8,10 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 //middlewares
-app.use(cors());
+app.use(cors({
+    credentials: true,
+    origin: 'http://localhost:3000'
+}));
 app.use(express.json());
 
 //routes

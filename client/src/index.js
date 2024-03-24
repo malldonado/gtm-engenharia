@@ -6,6 +6,7 @@ import Panel from "./components/Panel.jsx";
 import Projects from "./components/Projects.jsx";
 import About from "./components/About.jsx";
 import Login from "./components/Login.jsx";
+import Register from "./components/Register.jsx";
 import 'react-slideshow-image/dist/styles.css'
 import "./index.css";
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login/>
+  },
+  {
+    path: "/register",
+    element: <Register/>
   }
 ]);
 
